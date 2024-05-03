@@ -1,0 +1,169 @@
+ @media screen and (max-width:800px){ 
+ 
+ 
+html{
+    font-size: 85%;
+}
+.nav-header {
+    padding: 10px 3px 0px 30px;
+    justify-content: flex-start;
+}
+.phoneNavbar{
+    height: 100%;
+    background: rgba(1, 22, 61, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 99999;
+    border-radius: 7px;
+    overflow: hidden;
+    transition: .4s ease-in;
+
+}
+
+.phoneNavbar ul{ 
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #fff;
+    color: #013289;
+    margin: 50px 15px 15px 15px;
+    border-radius: 7px;
+    font-size: var(--normal-font-size);
+    font-weight: 500;
+    padding: 20px 10px;
+    overflow: hidden;
+    
+  } 
+  .phoneNavbar ul{
+  display: inline;
+  }
+
+  .phoneNavbar ul li{
+    line-height: 3.2;
+  }
+
+  .phoneNavbar ul li .btn{
+     margin-top: 10px;
+     width: 85%;
+  }
+.phoneNavbarGo{
+  transform: translate(1000px);
+    
+}
+  .ham{
+    /* color: white; */
+    color: var(--text-color);
+    position: relative;
+    top: 15px;
+    
+  }
+
+  .fa-times{
+    color: white;
+    position: relative;
+    top: 10px;
+    z-index: 999999;
+    right: 24px;
+
+  }
+
+.phoneNavbar li {
+    line-height: 2.6;
+    
+  }
+.phoneBtn{
+    margin: 15px;
+}
+
+
+.hamburgers{
+   display: inline !important; 
+   position: absolute;
+   top: 12px;
+   right: 15px;
+   font-size: 20px;
+
+}
+
+.home{
+  flex-direction: column;
+  height: auto;
+
+}
+.home-content{
+    margin-top: 200px;
+}
+
+.homeImage img{
+    width: 270px;
+    height: 280px;
+  
+}
+.icons{
+  display: none;
+}
+.fancyIcons{
+  display: none;
+}
+.about-content{
+    flex-direction: column;
+    padding: 50px 30px;
+}
+.about-text{
+   padding: 20px 0 ;
+}
+.serviceSlide{
+   flex-direction: column;
+}
+.serviceText{
+  width: 230px;
+
+}
+.contact-content{
+    padding: 20px 10px;
+}
+
+ .showLinks{
+height: auto;
+display: flex;
+flex-direction: column;
+} 
+
+.reasons{
+  margin: 5px;
+}
+.reasons-content{
+  flex-direction: column;
+}
+
+#email{
+padding: 5px 15px;
+}
+.emailBtn{
+  padding: 8px 17px;
+}
+.ring{
+  width: 100px;
+}
+.tri2{
+  display: none;
+}
+
+.projectsContent{
+  flex-direction: column;
+  
+}
+.projectsContent img{
+  width: 330px;
+
+}
+.projectsContent img:hover{
+  transform: scale(1.1);
+  transition: all .3s ease-in-out;
+}
+ }
